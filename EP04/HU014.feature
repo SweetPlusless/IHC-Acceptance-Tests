@@ -8,3 +8,10 @@ Scenario Outline: El usuario quiere editar sus proyectos y que otros puedan cola
   Given que la aplicación tiene la opción de compartir vínculo del proyecto 
   When suceda esto el usuario se permitirá observar el avance de cada uno, 
   Then el usuario podrá colaborar en tiempo real con otros usuarios
+
+Examples: INPUT
+  | Ver proyectos actuales | Seleccionar proyecto  | Ver | Proyecto1 | 
+  |compartir |
+Examples: OUTPUT
+  | Mensaje |
+  | Link copiado |
