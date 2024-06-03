@@ -11,3 +11,7 @@ Scenario Outline: Asesor apoya al usuario
   Examples: INPUT
   | ¿Requiere asistencia? | Medio de asistencia preferido |
   | Solicitar ayuda | Chat de texto |
+
+  Examples: OUTPUT
+  | Mensaje |
+  | Un asesor experto en la materia se comunicará con usted en breve. |
