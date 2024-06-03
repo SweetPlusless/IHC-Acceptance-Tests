@@ -7,3 +7,7 @@ Scenario Outline: Disponibilidad de Visualización 3D
   Given soy ejecutivo de una constructora, 
   When accedo a la aplicación TerraPlan y seleccione “Ver proyecto actual” 
   Then la aplicación me proporciona la opción de visualizar el plano en formato 3D de manera clara y accesible.
+
+  Examples: INPUT
+  | Ver proyecto actual | Seleccionar proyecto |
+  | Ver | Proyecto1 |
