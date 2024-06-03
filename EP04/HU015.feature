@@ -8,3 +8,7 @@ Scenario Outline: El usuario proporciona los detalles específicos de lo que des
   Given que la aplicación solicitará algunos datos adicionales para mejorar la precisión del diseño del plano
   When suceda esto el usuario recibirá resultados más exactos y detallados,
   Then el usuario recibirá resultados más exactos y detallados.
+  
+Examples: OUTPUT
+  | Mensaje |
+  | Realizar Planos |
