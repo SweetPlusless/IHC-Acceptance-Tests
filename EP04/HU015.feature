@@ -10,9 +10,7 @@ Scenario Outline: El usuario proporciona los detalles específicos de lo que des
   Then el usuario recibirá resultados más exactos y detallados.
 
   Examples: INPUT
-  | Datos |
   | Alto: |
-  | Ancho: |
   | Largo: |
   | Área: |
 Examples: OUTPUT
