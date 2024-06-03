@@ -8,3 +8,10 @@ Scenario Outline: El usuario proporciona los detalles específicos de lo que des
   Given que la aplicación usa sensores del dispositivo
   When suceda esto el usuario tendrá un escaneo rápido del espacio que quiera,
   Then el usuario podrá escanear rápidamente el espacio que quiera
+
+  Examples: INPUT
+  | Datos |
+  | Alto: |
+  | Ancho: |
+  | Largo: |
+  | Área: |
