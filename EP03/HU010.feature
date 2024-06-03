@@ -9,5 +9,9 @@ Scenario Outline: Disponibilidad de Visualización 3D
   Then la aplicación me proporciona la opción de visualizar el plano en formato 3D de manera clara y accesible.
 
   Examples: INPUT
-  | Ver proyecto actual | Seleccionar proyecto |
-  | Ver | Proyecto1 |
+  | Ver proyectos actuales | Seleccionar proyecto | Modo de visualización |
+  | Ver | Proyecto1 | En formato 3D |
+
+  Examples: OUTPUT
+  | Mensaje |
+  | Su plano en formato 3D se ha cargado correctamente |
