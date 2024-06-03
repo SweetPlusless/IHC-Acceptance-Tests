@@ -10,8 +10,8 @@ Scenario Outline: Registrando foto para el proyecto
 
   Examples: INPUT
   | Seleccionar proyecto | Fotos del proyecto |
-  | Proyecto1 | Guardar foto del proyecto |
+  | Proyecto1 | Guardar nueva foto del proyecto |
 
   Examples: OUTPUT
   | Mensaje |
-  | Se ha subido satisfactoriamente su imagen al Proyecto1 |
+  | Se ha subido satisfactoriamente su imagen al Proyecto1. |
