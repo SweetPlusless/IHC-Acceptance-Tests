@@ -9,4 +9,5 @@ Scenario Outline: Construir inmuebles exitoso
   Then le aparecerá una ventana con la última fotografía tomada del proyecto junto a información relevante de la misma.
 
   Examples: OUTPUT
-  
+  | Mensaje |
+  |La construccion de inmuebles ha sido exitosa|
