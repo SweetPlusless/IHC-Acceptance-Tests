@@ -10,5 +10,5 @@ Scenario Outline: Recibir ayuda de la inteligencia artificial exitoso
   And  el usuario chateará con la inteligencia artificial para recibir consejos e imágenes de un prototipo de proyecto según sus necesidades.
 
   Examples: OUTPUT
-    | Mensaje |
-    | La ayuda de la inteligencia artificial ha sido la apropiada|
+  | Mensaje |
+  | La ayuda de la inteligencia artificial ha sido la apropiada|
